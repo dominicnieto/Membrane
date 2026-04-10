@@ -1,6 +1,7 @@
 .DS_Store
 .build/
 .swiftpm/
+Package.resolved
 docs/reference/api-surface-catalog.md
 docs/reference/api-improvement-report.md
 
