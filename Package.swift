@@ -30,7 +30,7 @@ if useLocalDeps {
         .package(url: "https://github.com/dominicnieto/Hive", branch: "production"),
         .package(url: "https://github.com/christopherkarani/ContextCore.git", from: "1.0.0"),
         .package(
-            url: "git@github.com:dominicnieto/Conduit.git",
+            url: "https://github.com/dominicnieto/Conduit.git",
             branch: "production",
             traits: [
                 .trait(name: "OpenAI"),
