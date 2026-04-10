@@ -28,7 +28,7 @@ if useLocalDeps {
     dependencies += [
         // Keep Hive pinned to Swarm's dependency (avoid mixing local/remote HiveCore in the graph).
         .package(url: "https://github.com/dominicnieto/Hive", branch: "production"),
-        .package(url: "https://github.com/christopherkarani/ContextCore.git", from: "1.0.0"),
+        .package(url: "https://github.com/dominicnieto/ContextCore.git", branch: "production"),
         .package(
             url: "https://github.com/dominicnieto/Conduit.git",
             branch: "production",
@@ -38,7 +38,7 @@ if useLocalDeps {
                 .trait(name: "Anthropic"),
             ]
         ),
-        .package(url: "https://github.com/christopherkarani/Wax.git", from: "0.1.19"),
+        .package(url: "https://github.com/dominicnieto/Wax.git", branch: "production"),
     ]
 }
 

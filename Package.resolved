@@ -1,13 +1,13 @@
 {
-  "originHash" : "d518b261959fdfa66a49f0077e342e27eab30eda282d18fc05a50d51518eeff8",
+  "originHash" : "de57bab1482a7b6661e7a13fd0af03eeff957bac114a778f9dcbec1c507a16a7",
   "pins" : [
     {
       "identity" : "conduit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/christopherkarani/Conduit",
+      "location" : "https://github.com/dominicnieto/Conduit",
       "state" : {
-        "revision" : "61a1b70ae3cdcba7d186b5165d8a946e4a615191",
-        "version" : "0.3.10"
+        "branch" : "production",
+        "revision" : "1cd9c167b3fee5f0a5b87ad0b2f63bbbba1fb992"
       }
     },
     {
@@ -40,10 +40,10 @@
     {
       "identity" : "hive",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/christopherkarani/Hive",
+      "location" : "https://github.com/dominicnieto/Hive",
       "state" : {
-        "revision" : "194d36064ec0ee06653cd4aae51fd3b2ad1b32c3",
-        "version" : "0.1.9"
+        "branch" : "production",
+        "revision" : "8698c156de9ac06fbcc25d745ded5adf0feffe7a"
       }
     },
     {
@@ -125,6 +125,15 @@
       "state" : {
         "revision" : "558f24a4647193b5a0e2104031b71c55d31ff83a",
         "version" : "2.97.1"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "0c0290ff6b24942dadb83a929ffaaa1481df04a2",
+        "version" : "1.1.1"
       }
     },
     {
